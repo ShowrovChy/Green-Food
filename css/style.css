@@ -10,6 +10,32 @@ body{
 }
 
     /* Base Style End */
+
+
+    .nav-img{
+        width:90px;
+        height:90px;
+    }
+    .nav-bar{
+        text-align:center;
+        width:100%;
+        background-color:white;
+        top:0;
+        position:fixed;
+        padding: 0 0 20px 0;
+    }
+
+    .nav-item{
+        display: inline-block;
+        color:rgb(75, 72, 72);
+        text-decoration: none;
+        margin:0 30px;
+        text-transform: uppercase;
+        transition: all .2s;
+    }
+    .nav-item:hover{
+        color:tomato;
+    }
 /* --------------------------*/
     /* Header Section Start */
 .top-container{
@@ -17,10 +43,10 @@ body{
 }
 .half-width{
     width:50%;
-    margin-top: 60px;
+    margin-top: 120px;
 }
 .header-text-part{
-    margin:130px 0 0 100px;
+    margin:200px 0 0 130px;
 }
 .colored-portion{
     color: coral;
@@ -52,6 +78,10 @@ body{
     background-image:linear-gradient(to right,#f0b319 , rgb(216, 136, 32));
     box-shadow: 2px 4px 10px #302e2e;
 }
+.header-image{
+    width:80%;
+
+}
             /* Header Section "End" */
     /* --------------------------------- */
         /* About Section Start */
@@ -63,7 +93,6 @@ body{
     margin-top: 200px;
 }
 .about-image{
-
     width:50%;
     vertical-align:middle;  
     padding-top: 30px;
@@ -75,12 +104,6 @@ body{
 .about-text-part2{
     width:50%;
     padding:190px 100px 50px 50px;
-}
-.space{
-    height:400px;
-    width:100%;
-    background-color: blue;
-    margin-top: 200px;
 }
 
     /* About Section End */
@@ -136,22 +159,184 @@ body{
 .Growth-card{
     width:33.3%;
     text-align: center;
+}  
+
+/*----------------------------- */
+/* Website Growth Section End */
+/*----------------------------- */
+
+
+   /*----------------------------- */
+     /* Top Bottom Section Start */
+      /*----------------------------- */
+.top-bottom-wrapper{
+    display:flex;
+    width:76%;
+    margin:150px auto 0;
+   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.header-image{
+/* ---------------------- */
+        /* Form Section */
+/* ---------------------- */
+.form-wrapper{
+    background-image: linear-gradient(rgba(238, 229, 229, 0.528),rgba(197, 186, 186, 0.528)),url("images/form-bg.jpg");
+    background-size:cover ;
+    width: 45%;
+    height: 500px;
+    padding: 20px;
+    margin: 30px auto 30px auto;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+.form-wrapper:hover{
+    box-shadow: 2px 3px 6px gray;
+}
+/* ---------------------- */
+        /* Input Section */
+/* ---------------------- */
+.input{
     width:80%;
+    height:30px;
+    border-radius:10px;
+    margin-bottom: 14px;
+    border: 1px solid  rgb(253, 137, 5);
+    box-shadow: 0px 0px 7px rgb(0, 0, 0);
+    transition: all .2s;
+    outline:none;
+    padding-left:7px;
 }
+.input:hover{
+    width:90%;
+    height:35px;
+    background-color:  rgb(253, 137, 5);
+}
+/* ---------------------- */
+        /* level Section */
+/* ---------------------- */
+.Label-style{
+    color:rgb(24, 20, 16);
+    font-weight:800;
+    margin:0 0 10px 10px;
+    display: inline-block;
+    font-size:103%;
+}
+/* ---------------------- */
+        /* Radius Section */
+/* ---------------------- */
+.Radius{
+    font-size:140%;
+    margin:5px 0 15px 10px;
+}
+
+.MF{
+    font-size:12px;
+}
+
+/* ---------------------- */
+/* Text Area Section */
+/* ---------------------- */
+#text-area{
+    width:80%;
+    border-radius:20px;
+    outline:none;
+    padding:10px 20px;
+    border:1px solid  rgb(253, 137, 5);
+    box-shadow: 0px 0px 7px rgb(0, 0, 0);
+}
+#text-area:hover{
+    width:90%;
+    background-color:  rgb(253, 137, 5);
+    transition: all .2s;
+}
+
+/* ---------------------- */
+        /* Button Section */
+/* ---------------------- */
+
+.btn,.btn2{
+    width: 100px;
+    height:30px;
+    border-radius: 10px;
+    border: 1px solid  rgb(253, 137, 5);
+    box-shadow: 0px 0px 7px rgb(0, 0, 0);
+    letter-spacing:2px;
+    font-weight:800;
+    font-family:sans-serif;
+    font-size:15px;
+    transition: all .2s;
+} 
+.btn1:hover{
+    height:35px;
+    background-color:  rgb(253, 137, 5);
+}
+.btn2:hover{
+    height:35px;
+    background-color:  rgb(253, 137, 5);
+}
+.btn1{
+    margin-right:54px;
+}
+
+
+/* About Section Start */
+
+.about-wrapper{
+    width:55%;
+    padding:40px;
+    margin-left:40px;
+    text-align: justify;
+    line-height: 30px;  
+    border-left: 3px groove ;
+    border-image: linear-gradient(gray,gray);
+    border-image-slice: 1;
+}
+.about-h2{
+    text-align: center;
+    margin: 30px 0;
+}
+/* footer section start */
+
+.footer-wrapper{
+    width:100%;
+    height:100px;
+    background-color:rgb(2, 2, 65);
+    margin-top:170px;
+}
+.footer-p{
+    text-align: center;
+    color: whitesmoke;
+    padding-top:50px ;
+}
+    /* Sticky section start */
+
+.stick-wrapper{
+    position: fixed;
+    right:10px;
+    top:130px;
+}   
+.stick-item{
+    font-size: 80px;
+    display:inline-block;
+    color:tomato;
+}  
+.stick-wrapper ul{
+    list-style: none;
+}   
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
