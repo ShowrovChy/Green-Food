@@ -312,7 +312,7 @@ body{
 .stick-wrapper{
     position: fixed;
     right:10px;
-    top:130px;
+    top:120px;
 }   
 .stick-item{
     font-size: 80px;
