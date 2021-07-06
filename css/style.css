@@ -1,0 +1,157 @@
+    /* Base Style Start  */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Noto Serif', serif;
+}
+
+    /* Base Style End */
+/* --------------------------*/
+    /* Header Section Start */
+.top-container{
+    display:flex;
+}
+.half-width{
+    width:50%;
+    margin-top: 60px;
+}
+.header-text-part{
+    margin:130px 0 0 100px;
+}
+.colored-portion{
+    color: coral;
+}
+.header-h1-title{
+    margin:20px 0;
+    font-weight:700;
+    font-size: 40px;
+    color:#6d6d6d;
+}
+.header-paragraph{
+    color:#949292;
+    margin-bottom: 40px;
+    text-align: justify;
+    line-height:33px;
+}
+.header-button-link{
+    background-image:linear-gradient(to right, coral,#ce6311);
+    display: inline-block;
+    padding:15px 40px;
+    color:#ffffff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 6px gray;
+    transition: all .3s;
+}
+.header-button-link:hover{
+    background-image:linear-gradient(to right,#f0b319 , rgb(216, 136, 32));
+    box-shadow: 2px 4px 10px #302e2e;
+}
+            /* Header Section "End" */
+    /* --------------------------------- */
+        /* About Section Start */
+.about-section-wrapper{
+    display: flex;
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+}
+.about-image{
+
+    width:50%;
+    vertical-align:middle;  
+    padding-top: 30px;
+    margin-left: 160px;
+}
+.about-image-part1{
+    width:50%;
+}
+.about-text-part2{
+    width:50%;
+    padding:190px 100px 50px 50px;
+}
+.space{
+    height:400px;
+    width:100%;
+    background-color: blue;
+    margin-top: 200px;
+}
+
+    /* About Section End */
+/* ----------------------------- */
+    /* Recipes Section Start */
+
+.recipes-section-wrapper{
+    text-align: center;
+    margin-top: 150px;
+    }
+.recipes-header-top-part{
+    width:100%;
+    padding:50px 0 30px 0;
+}
+.recipes-h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: rgb(84, 76, 76);
+}
+.recipes-card-wrapper{
+    width:76%;
+    display: flex;
+    margin:30px auto 0;
+}
+.Card{
+    width:33.3%;
+    padding:23px;
+    box-shadow: 2px 4px 10px black;
+    margin: 0 20px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+.Card:hover{
+    box-shadow: 4px 7px 15px black;
+}
+.img-card{
+    width:100%;
+    height:200px;
+    border-radius: 15px;
+}
+       /* Recipes Section End */
+  /*----------------------------- */
+     /*  Website Growth Section Start */
+
+.Growth-card-wrapper{
+    display: flex;
+    width: 70%;
+    margin:100px auto 0;
+    padding:50px 40px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px black;
+}
+.Growth-card{
+    width:33.3%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-image{
+    width:80%;
+}
